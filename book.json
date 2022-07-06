@@ -1,69 +1,59 @@
 {
-    "root": ".",
-    "title": "我的Python笔记本",
-    "author": "Winnerzr",
-    "description": "Winnerzr's Python notebook",
-    "language": "zh-hans",
-    "plugins": [
-        "donate",
-        "tbfed-pagefooter",
-        "expandable-chapters-small",
-        "github",
-        "anchor-navigation-ex",
-        "splitter",
-        "code",
-        "hide-element",
-        "-lunr", 
-        "-search", 
-        "search-pro",
-        "pageview-count",
-        "popup",
-        "-sharing",
-        "sharing-plus",
-        "valine"
-    ],
-    "pluginsConfig": {
-        "donate": {
-            "wechat": "https://cdn.jsdelivr.net/gh/WINNERZR01/WINNERZR01-2022picturebed/writeimg/202201181823748.png",
-            "alipay": "https://cdn.jsdelivr.net/gh/WINNERZR01/WINNERZR01-2022picturebed/writeimg/202201181823839.png",
-            "title": "",
-            "button": "Donate",
-            "alipayText": "支付宝",
-            "wechatText": "微信"
-        },
-        "tbfed-pagefooter": {
-            "copyright":"&copy by winnerzr",
-            "modify_label": "该文档修订时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
-        "github": {
-            "url": "https://github.com/WINNERZR01"
-        },  
-        "expandable-chapters":{},
-        "anchor-navigation-ex":{
-            "showLevel": false
-        },
-        "code": {
-            "copyButtons": true
-        },
-        "hide-element": {
-            "elements": [".gitbook-link"]
-        },
-        "sharing": {
-            "douban": true,
-            "facebook": false,
-            "google": false,
-            "pocket": false,
-            "qq": true,
-            "qzone": false,
-            "twitter": true,
-            "weibo": true,
-         "all": [
-            "qq", "twitter","weibo","douban"              
-            ]
-      },
-      "valine": {
-        "appId": "Pmai2zSyIldhmWIcUD2yFIcp-gzGzoHsz",
-        "appKey": "TuPQ3Y38BG6lBdwDvl2cmMmb"
-      }
-}}
+  "root": ".",
+  "title": "我的Python笔记本",
+  "author": "Alinoyo",
+  "description": "Alinoyo's Python notebook",
+  "language": "zh-hans",
+  "plugins": [
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "github",
+    "anchor-navigation-ex",
+    "splitter",
+    "code",
+    "hide-element",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "pageview-count",
+    "popup",
+    "-sharing",
+    "sharing-plus"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright": "&copy by winnerzr",
+      "modify_label": "该文档修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "github": {
+      "url": "https://github.com/Alinoyo"
+    },
+    "expandable-chapters": {},
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+    "code": {
+      "copyButtons": true
+    },
+    "hide-element": {
+      "elements": [ ".gitbook-link" ]
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": false,
+      "twitter": true,
+      "weibo": true,
+      "all": [
+        "qq",
+        "twitter",
+        "weibo",
+        "douban"
+      ]
+    }
+  }
+}
